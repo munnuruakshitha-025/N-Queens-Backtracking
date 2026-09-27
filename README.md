@@ -140,6 +140,8 @@ Where:
 ## Sample Output
 
 ```text
+Enter number of queens: 4
+
 N-Queens Solution:
 
 . Q . .
@@ -147,8 +149,38 @@ N-Queens Solution:
 Q . . .
 . . Q .
 
+Solution Vector:
+2 4 1 3
+
 Solution found successfully.
 ```
+
+### Solution Vector Explanation
+
+The solution vector represents the column position of the queen in each row.
+
+For the above solution:
+
+| Row | Queen Column |
+| --- | ------------ |
+| 1   | 2            |
+| 2   | 4            |
+| 3   | 1            |
+| 4   | 3            |
+
+Therefore:
+
+```text
+Solution Vector = [2, 4, 1, 3]
+```
+
+This means:
+
+* Row 1 → Queen at column 2
+* Row 2 → Queen at column 4
+* Row 3 → Queen at column 1
+* Row 4 → Queen at column 3
+
 
 ## Complexity Analysis
 
