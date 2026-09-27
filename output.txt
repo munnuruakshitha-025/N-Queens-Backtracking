@@ -1,0 +1,15 @@
+```text
+Enter number of queens: 4
+
+N-Queens Solution:
+
+. Q . .
+. . . Q
+Q . . .
+. . Q .
+
+Solution Vector:
+2 4 1 3
+
+Solution found successfully.
+```
